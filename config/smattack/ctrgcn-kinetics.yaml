@@ -1,0 +1,12 @@
+epochs: 300
+attackType: 'ab'
+model_name: 'ctrgcn_kinetics'
+data_path: './kinetics/train_data_joint.npy'
+num_frame_path:
+label_path: './train_label.pkl'
+save_path: './smattack/ctrgcn/kinetics/'
+batch_size: 16
+classNum: 400
+dataset: 'kinetics'
+lr: 0.0005
+task: ''

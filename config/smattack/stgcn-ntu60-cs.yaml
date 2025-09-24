@@ -1,0 +1,12 @@
+epochs: 300
+attackType: 'ab'
+model_name: 'stgcn'
+data_path: './xsub/train_data_joint.npy'
+num_frame_path: './xsub/train_num_frame.npy'
+label_path: './xsub/train_label.pkl'
+save_path: './smattack/stgcn/ntu60-cs-train/'
+batch_size: 16
+classNum: 60
+dataset: 'ntu60'
+lr: 0.0005
+task: ''

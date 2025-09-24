@@ -1,0 +1,12 @@
+epochs: 300
+attackType: 'abn'
+model_name: 'ctrgcn120'
+data_path: './NTU120_CSub.npz'
+num_frame_path:
+label_path:
+save_path: './smattack/ctrgcn/ntu120-cs-train/'
+batch_size: 16
+classNum: 120
+dataset: 'ntu120'
+lr: 0.0005
+task: ''

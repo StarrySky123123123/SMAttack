@@ -1,0 +1,8 @@
+data_path: './transfer/SourceSample.npy'
+attack_data_path: './transfer/AttackSample.npy'
+num_frame_path: './transfer/FramesSample.npy'
+label_path: './transfer/LabelSample.npy'
+source_model_name: 'ctrgcn'
+model_name: 'selfgcn'
+dataset: 'ntu60'
+classNum: 60
